@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SecretNest.Hardware.Text
 {
-    class TextRenderer
+    public class TextRenderer
     {
         private readonly Graphics _targetGraphics;
         private readonly Size _charSize;
@@ -79,7 +79,7 @@ namespace SecretNest.Hardware.Text
         }
     }
 
-    class TextRendererSource
+    public class TextRendererSource
     {
         public TextRendererSource(Bitmap image, Dictionary<char, Point> points)
         {
