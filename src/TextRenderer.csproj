@@ -10,12 +10,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/SecretNest/SecretNest.Hardware.TextRenderer</PackageProjectUrl>
     <RepositoryUrl>https://github.com/SecretNest/SecretNest.Hardware.TextRenderer</RepositoryUrl>
-    <PackageReleaseNotes>Change accessor.</PackageReleaseNotes>
+    <PackageReleaseNotes>Change TextRendererSource</PackageReleaseNotes>
     <Description>Render text using bitmap. Support characters on keyboard only.</Description>
     <Copyright>Allen Cui / SecretNest.info</Copyright>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <FileVersion>1.0.2.0</FileVersion>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>

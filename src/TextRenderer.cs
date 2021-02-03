@@ -81,13 +81,13 @@ namespace SecretNest.Hardware.Text
 
     public class TextRendererSource
     {
-        public TextRendererSource(Bitmap image, Dictionary<char, Point> points)
+        public TextRendererSource(Bitmap image, IReadOnlyDictionary<char, Point> points)
         {
             Image = image;
             Points = points;
         }
 
         public Bitmap Image { get; }
-        public Dictionary<char, Point> Points { get; }
+        public IReadOnlyDictionary<char, Point> Points { get; }
     }
 }
