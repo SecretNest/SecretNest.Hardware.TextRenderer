@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
+    <AssemblyName>SecretNest.Hardware.TextRenderer</AssemblyName>
+    <RootNamespace>SecretNest.Hardware.Text</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Allen Cui</Authors>
+    <Company>SecretNest.info</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/SecretNest/SecretNest.Hardware.TextRenderer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SecretNest/SecretNest.Hardware.TextRenderer</RepositoryUrl>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <Description>Render text using bitmap. Support characters on keyboard only.</Description>
+    <Copyright>Allen Cui / SecretNest.info</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
