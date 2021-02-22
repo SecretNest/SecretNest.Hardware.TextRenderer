@@ -12,11 +12,19 @@ namespace SecretNest.Hardware.Text
         private readonly TextRendererSource[] _sources;
         private readonly Rectangle[] _targetRectangles;
 
+        public int StartX { get; }
+        public int StartY { get; }
+        public Size CharSize => _charSize;
+        public int CharCount { get; }
+        public Graphics TargetGraphics => _targetGraphics;
+
         public TextRenderer(Graphics targetGraphics, int startX, int startY, Size charSize, int charCount, params TextRendererSource[] sources)
         {
             _targetGraphics = targetGraphics;
             _charSize = charSize;
             _sources = sources;
+            StartX = startX;
+            StartY = startY;
             _targetRectangles = new Rectangle[charCount];
             for (int i = 0; i < charCount; i++)
             {
